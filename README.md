@@ -33,6 +33,10 @@ Para usar OpenAI real:
 1. Cambiar `LLM_MODE=openai`
 2. Configurar `OPENAI_API_KEY`
 
+Para usar Gemini real:
+1. Cambiar `LLM_MODE=gemini`
+2. Configurar `GEMINI_API_KEY`
+
 ## Endpoints principales
 - `POST /api/chat`
 - `POST /api/tools/resumir`
@@ -54,4 +58,3 @@ pytest -q
 ## Documentacion de entrega
 - [Documento de entrega](docs/ENTREGA_CORTE1.md)
 - [Script de sustentacion](docs/SCRIPT_DEMO.md)
-
